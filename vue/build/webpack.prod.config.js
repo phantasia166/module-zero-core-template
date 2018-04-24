@@ -83,6 +83,9 @@ module.exports = merge(webpackBaseConfig, {
             },{
                 from:'node_modules/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js',
                 to:'abp'
+            },{
+                from:'node_modules/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js',
+                to:'abp'
             }
         ], {
             ignore: [
